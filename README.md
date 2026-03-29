@@ -94,6 +94,7 @@ Three layers:
 ### Reference
 | Document | Description |
 |----------|-------------|
+| [Plugin Registry](docs/plugin-registry.md) | Master list of ~832 individually toggleable plugins across 43 categories |
 | [Plugin Audit](docs/plugin-audit.md) | 1605 RuneLite plugins analyzed — gaps, new features, coverage |
 
 ## Contributing
