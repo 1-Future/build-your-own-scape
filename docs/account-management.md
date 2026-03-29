@@ -295,3 +295,27 @@ The account management system is organized into the following UI panels.
 | Progression Summary | Stats overview, achievements, milestones, XP totals |
 | Account Timeline | Chronological log of account events (name changes, mode conversions, rollbacks) |
 | Login History | Table of recent logins with IP, device, timestamp, and status |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Wellness Break Reminders | Real-world health reminders: hydration, stretch, eye rest, posture. Configurable intervals (30min, 1hr, 2hr). Dismissable but persistent. Optional lock-out (force 5min break) |
+| Teleport Misclick Protection | Confirmation dialog before high-value or dangerous teleports. Prevents accidental teleportation. Configurable per teleport method |
+| Per-Zone Audio Controls | Mute or adjust volume for specific game areas. Mute annoying areas, boost quiet areas. Persists across sessions |
+| Actions-Per-Minute Metrics | Track and display APM (actions per minute) as a performance metric. Session averages, peaks, and trends over time |
+| Combat Setting Warnings | Alert when auto-retaliate is off in a dangerous area, or on in a safe area. Configurable per setting per zone type |
+| AFK Timer Visibility | Display countdown to AFK logout. Shows exact time remaining before forced disconnect. Configurable warning threshold |
+| Session Time Limit Warnings | Alert before forced logout (6-hour rule or DM-configured limits). Warnings at 60, 30, 15, 5 minutes before |
+| Player Pronouns | Optional pronouns field on player profile (he/him, she/her, they/them, custom). Displayed alongside name where configured |
+| Cloud Save / Cross-Device Sync | Sync settings, keybinds, UI layout, bank tags, tile markers, and plugin presets across devices. Conflict resolution |
+| Resource/Texture Packs | Community-created visual theme packs. Download and apply cosmetic overhauls to game appearance. DM-curated marketplace |
+| Multi-Panel Client Layout | Split game client into multiple panels/views. Customizable layout with resizable panels for inventory, chat, map, stats simultaneously |
+| Push Notifications | Send game event notifications to mobile/desktop when not in-game. Trade complete, friend online, timer expired, daily reset. Per-event toggle |
+| Auto-Screenshot | Automatic screenshot capture on configurable triggers: rare drop, level up, quest complete, pet obtain, death, achievement. Saved locally or uploaded |
+| Focus-Loss Auto-Mute | Automatically mute game audio when window loses focus. Restore on refocus. Toggle |
+| Keybind Profiles | Save multiple keybind configurations as named profiles. Quick-switch between profiles for different activities (PvM, PvP, skilling) |
+| Action History Audit Log | Persistent log of all significant actions taken (trades, drops, deaths, teleports, equipment changes). Searchable and exportable |
+| Custom Notification Sounds | Assign custom sound effects to specific notification types. Different sounds for different events. Uploadable audio files |

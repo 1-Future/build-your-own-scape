@@ -161,3 +161,12 @@ The tracker supports multiple views for filtering and sorting the daily list.
 | By Time to Complete | Sort by estimated minutes, shortest first |
 | Completed/Incomplete | Split into done and not-done for current period |
 | By Priority | Sort by player-assigned or calculated priority ranking |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Random World Events | Periodic surprise events that occur in the world. Anti-AFK mechanic and content driver. Types: invasion (monsters attack a town), resource surge (bonus nodes spawn), wandering merchant (rare shop appears), weather event (special conditions). DM configures frequency, types, and rewards. |
+| Login Streak Rewards | Daily login streak counter with escalating rewards for consecutive days. Streak break policy (miss one day = reset, or grace period). Milestone rewards at 7, 14, 30, 60, 90, 365 days. |

@@ -287,3 +287,13 @@ All systems can be independently enabled or disabled by server administrators.
 | Rule violation stats | Aggregate data on violations by category, severity, and time period |
 | Strike leaderboard | Internal view showing players with the most active strikes (for proactive monitoring) |
 | Moderator performance | Per-moderator statistics on actions taken, appeals overturned, and report resolutions |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Jail / Prison Sentence | In-game jail area as a punishment type. Offending player is teleported to a prison zone for a set duration. Can interact with other jailed players but not the main game world. Timer visible. |
+| Player-Driven Reporting with Evidence | Enhanced report system where reporters can attach screenshots, chat logs, and video clips as evidence. Evidence reviewed by moderators. Higher quality reports get priority. |
+| Ban List Portability | Export and import ban lists between servers/worlds. DMs can share ban lists with trusted partners. Community-maintained databases of known bad actors. |

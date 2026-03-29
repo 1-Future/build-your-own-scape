@@ -240,3 +240,15 @@ Predefined filtered views of the Monster List spreadsheet for common workflows.
 | By Location | Grouped by spawn location |
 | By Drop | Search for a specific item to see all monsters that drop it |
 | By Weakness | Grouped by elemental weakness |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Per-Monster Session Dashboard | Real-time monitoring dashboard per monster showing kills/hr, loot/hr, GP/hr, XP/hr, and session duration with historical comparison. |
+| Drop Rate Probability Calculator | Statistical calculator showing expected kills for drops, current percentile (how lucky/unlucky you are), and dry streak context. |
+| NPC Bestiary Completion Tracker | Track which NPCs/monsters you have encountered and killed as a bestiary collection. Completion percentage with rewards at milestones. |
+| Player-Defined NPC Nicknames | Allow players to set custom nicknames/aliases for monsters and NPCs that display in-game instead of the default name. |
+| Reverse Drop Table Lookup | Search by item to see all monsters/sources that drop it, with drop rates and estimated kills per drop. The inverse of viewing a monster's drop table. |

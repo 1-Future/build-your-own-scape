@@ -226,3 +226,13 @@ The minigame browser supports filtering by the following dimensions.
 | By Skill         | Combat, Skilling, Hybrid.                                       |
 | By Reward        | Filter by reward type (currency, unique items, XP, pets).       |
 | By Difficulty    | Novice, Intermediate, Veteran, Hard mode.                       |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Prop Hunt Mode | Game mode template where players disguise as in-game objects while seekers hunt for them. Hiders choose an object model, seekers click suspected props. Timer-based rounds. |
+| Collectible Card Game | In-game CCG system where players collect cards from drops/crafting, build decks, and battle. Card stats, deck building rules, ranked matchmaking. |
+| Ready Check System | "Ready?" prompt before starting any group content. All party members must confirm. Shows ready/not-ready status. Configurable timeout. |

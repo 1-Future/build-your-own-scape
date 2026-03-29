@@ -283,3 +283,19 @@ All sections are independently toggleable. Players can show or hide each module 
 | Dry streak tracker     | On      |
 | Wealth over time       | Off     |
 | Shareable profile      | Off     |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+| ------------------ | ------------------------------------------------------------ |
+| Combat Damage Log | Scrollable history of all damage dealt and received with source attribution, timestamps, and hit/miss information. Per-fight and per-session views |
+| Session Metrics Dashboard | Real-time dashboard showing XP/hr, GP/hr, kills/hr, and other performance metrics for the current session with trends |
+| On-Screen Notes | Persistent in-game notepad/sticky notes. Rich text formatting. Position anywhere on screen. Multiple notes. Save across sessions |
+| Effective Level Display | Show effective (boosted/drained) skill levels with all active modifiers calculated (potions, prayers, equipment, debuffs) as a single number |
+| Activity Recommender | "What should I do next?" system that suggests activities based on current stats, goals, uncompleted content, and efficiency. Considers quests, skills, bosses, and achievements |
+| Historical Stat Graphs | Graph skill XP, wealth, KC, and other stats over time with daily/weekly/monthly views. Identify trends and milestones |
+| Click/Input Analytics | Track mouse clicks, keyboard presses, and APM over time. Heatmap of most-clicked screen areas. Session stats |
+| Pedometer | Count tiles walked/run. Total distance traveled per session and lifetime. Includes running vs walking breakdown |
+| Player Data Export | Export all character data (stats, bank, KC, achievements, collection log) to JSON/CSV for external analysis or sharing |

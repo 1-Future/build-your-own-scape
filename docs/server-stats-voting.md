@@ -305,3 +305,15 @@ Every subsystem can be independently enabled or disabled.
 | Bug Tracker           | Submitted bugs with status filters                  |
 | Feature Request Board | Community ideas sorted by votes                     |
 | Changelog / Roadmap   | Update history and planned work                     |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Hiscore Rank Change Notifications | Alert players when their hiscore rank changes (moved up or down). Configurable per skill/category. Shows who passed you or who you passed. |
+| Data Visualization Tools | Histograms, charts, and graphs for server-wide data. XP distribution, wealth distribution, most popular activities, player count trends. Interactive and filterable. |
+| Client Network Diagnostics | Ping/latency monitoring with visual graph. Shows connection quality over time. Alerts on high latency spikes. Server response time tracking. |
+| Client Performance Metrics | FPS counter, load times, memory usage, and rendering performance. Helps identify performance issues. Benchmark mode. |
+| World Heatmap | Visual heatmap showing player density per world and per area. See where players congregate. Updated in real-time or periodically. |

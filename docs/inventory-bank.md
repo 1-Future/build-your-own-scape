@@ -49,3 +49,19 @@
 | Separate Bank Per Mode | Off |
 | Shared Bank | Off |
 | Bank Space Expansion | Off |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Item Lock | Lock specific items to prevent withdrawal, sale, drop, trade, or alch. Locked items display a lock icon. Requires confirmation to unlock |
+| Bank Changelog | Track all bank changes over time. Shows what was added, removed, and when. Daily diff view showing net changes |
+| Bank Usage Heatmap | Visual heatmap showing most frequently accessed bank items. Helps identify what to keep accessible vs store deep |
+| Multi-Term / Fuzzy Bank Search | Search bank with multiple terms simultaneously (AND/OR). Fuzzy matching so "addy" finds "adamant." Boolean operators supported |
+| Bank Snapshot Sharing | Generate shareable image of bank contents with values. Share with friends or post externally. Privacy filter (hide specific tabs) |
+| Banked XP Calculator | Calculate total XP stored in bank from processable items. Shows per-skill breakdown (herbs = herblore XP, ores = smithing XP). Tracks value over time |
+| Unified Item Locator | Find where any item is across all storage: bank, inventory, equipment, group shared storage, death storage, house storage, looting bag. One search, all locations |
+| Bank Data Export | Export bank contents to JSON/CSV for external tools, spreadsheets, or third-party applications. Scheduled or manual |
+| Bank Audit / Junk Detector | Identify items taking up bank space with low/no value. Suggest items to sell, alch, or destroy. Configurable value threshold |

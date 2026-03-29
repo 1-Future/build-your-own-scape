@@ -292,3 +292,20 @@ Dungeon masters configure the following per world:
 | Skill prerequisites   | None        | Require skills as prerequisites for other skills     |
 | Skill milestones      | On          | Award capes, titles, or cosmetics at level thresholds|
 | Source filter         | All         | Restrict skills to OSRS-only, RS3-included, or all  |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature                      | Description                                                                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Success Rate Transparency    | Display the exact percentage chance of success for skilling actions (e.g., 73% chance to pickpocket, 45% chance to catch). Helps players understand mechanics |
+| Per-Method XP Rate Tracking  | Track and compare XP rates across different training methods for the same skill. Shows which method is fastest at your level                          |
+| Resource Node Timers         | Timer showing how long a resource node (fishing spot, mining rock, tree) has been active before it moves or depletes                                 |
+| Resource Node Map Tracking   | Track and highlight resource node locations on the world map with movement patterns and respawn timers                                                |
+| XP Lock Per Skill            | Toggle to prevent gaining XP in selected skills. Essential for pures and restricted account builds                                                   |
+| Prestige / Rebirth System    | Reset a skill to level 1 after maxing for prestige ranks with cosmetic rewards and optional bonuses per prestige tier                                |
+| Task Assignment History      | Log of past slayer/daily task assignments with stats (what was assigned, how long it took, XP earned, loot received)                                 |
+| Resting Mechanic             | Sit/rest animation that regenerates run energy faster than standing. Configurable regen rate bonus. Optional toggle                                  |
+| Banked Experience Calculator | Calculate total XP stored in bank from processable items (herbs = herblore XP, ores = smithing XP, etc.)                                            |
+| XP Graphing / Analytics      | Graph XP gain over time with session/daily/weekly views. Identify peak training periods and efficiency trends                                        |

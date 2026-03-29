@@ -349,3 +349,13 @@ All dialogue data is linked by NPC ID. The following spreadsheets define the ful
 | By Quest Involvement | NPCs grouped by the quests they participate in |
 | Dialogue Tree Visualizer | Flowchart view of a scripted dialogue tree with node connections and conditions |
 | Conversation History | Per-player, per-NPC log of all past dialogue interactions |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| NPC Dialogue Journal | Persistent log of all NPC dialogue the player has encountered. Searchable by NPC name, keyword, or quest. Re-read past conversations. |
+| TTS Voice Synthesis | Text-to-speech voice generation for NPC dialogue when recorded voice acting is unavailable. Configurable voice per NPC (pitch, speed, accent). Falls back to text if TTS disabled. |
+| Dialogue Export | Extract and export NPC dialogue trees to file. Useful for wiki creation, lore documentation, and external analysis. JSON/text format. |

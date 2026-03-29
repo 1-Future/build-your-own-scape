@@ -352,3 +352,24 @@ The communication system exposes the following UI panels and screens.
 | Emoji / emote library | Browse, search, and favorite emojis and in-game emotes |
 | Quick chat browser | Browse and search all quick chat options |
 | VC channel list | Browse and join voice chat channels |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Chat Translation | Real-time language translation in chat. Incoming messages auto-translated to your language. Outgoing messages optionally translated. Powered by translation API. |
+| Custom Emoji | Player-uploadable or server-defined custom emoji for chat. Emoji packs. Clan-specific emoji. Unlockable emoji from achievements. |
+| Item Linking | Share item links in chat that others can hover to inspect stats, requirements, and value. Click to open item details. Similar to WoW item linking. |
+| Chat Audio Notifications | Per-channel and per-keyword sound alerts. Different sounds for PM, clan chat, mentions, specific words. Configurable per trigger. |
+| Proximity Voice Chat | Spatial voice chat where volume scales with player distance. Hear nearby players, volume fades with distance. Directional audio (left/right). |
+| Tactical Ping System | Quick communication pings on the game world (like League of Legends). Alert, danger, assist, on my way, retreat. Visible to party/clan. Hotkey-triggered. |
+| Rich Interactive Chat | Clickable elements in chat messages: item links, coordinate links (click to mark on map), player name links (click to inspect). Formatted messages with embeds. |
+| External Chat Bridges | Bidirectional bridges between in-game chat and external platforms (Discord, IRC, Telegram, Matrix). Per-channel mapping. Identity linking. |
+| Notification Center | Unified notification feed/panel collecting all game notifications (drops, levels, trades, clan events, friend logins) in one scrollable history. Filter by type. |
+| In-Game Drawing Tool | Drawing/painting on the world map or screen. Annotate positions, draw strategies, sketch plans. Visible to party. Erasable. |
+| AI Game Assistant | In-game AI assistant NPC or chatbot that answers questions about game mechanics, suggests activities, and provides information. Uses game database, not external knowledge. |
+| Streaming Integration | Twitch/YouTube integration. Live stats overlay, chat integration, subscriber alerts, scene switching based on game state. |
+| Chat Transcript Export | Export chat history to file (text, JSON, HTML). Configurable date range. Per-channel export. Searchable archive. |
+| Chat Clipboard | Copy individual chat messages or selections to clipboard. Right-click to copy. |

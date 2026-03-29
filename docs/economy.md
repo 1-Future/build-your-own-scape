@@ -372,3 +372,18 @@ Every economy subsystem can be independently enabled or disabled.
 | Shop Directory | All NPC shops with stock and location |
 | Trade Log | Searchable history of all trades |
 | Economy Health | Aggregate dashboard with key indicators |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Price Alert Watchlist | Set target buy/sell prices for items. Get notified when an item hits your target price. Watchlist with multiple items and configurable alert thresholds. |
+| GE Flipping Tools | Margin calculator, profit tracking, buy/sell recommendations, and historical flip data. Tracks ROI per flip. Suggests high-margin items based on volume and spread. |
+| GP/Hr Profit Tracker | Real-time GP/hr tracking across all activities. Session totals, rolling averages, and activity breakdown. Compare activities by profitability. |
+| Transaction History Ledger | Complete trade/GE log with player names, items, quantities, values, timestamps, and profit/loss per transaction. Searchable and exportable. |
+| Auto Loot Splitting | Automated loot split calculation and facilitation for groups. Tracks who received what, calculates even splits, and handles odd amounts. Optional auto-trade splits. |
+| Drop Party System | Organized drop party mechanic where items are distributed randomly to nearby players. Balloon/chest system. Scheduled or on-demand. From clan coffer or personal items. |
+| Shop Purchase Blacklist | Block buying specific items from NPC shops. Prevents accidental purchases of expensive or wrong items. Configurable per shop. |
+| Trade Scam Protection | Enhanced trade safety with unbalanced value warnings, confirmation dialogs on high-value trades, and suspicious trade pattern detection. |

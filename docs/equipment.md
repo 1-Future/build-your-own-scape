@@ -598,6 +598,22 @@ Each row defines how an item grows in power through use.
 
 ---
 
+## Additional Features (Plugin Audit)
+
+Features identified from the RuneLite plugin audit that extend the equipment system beyond core item data.
+
+| Feature | Description |
+|---|---|
+| Slot Locking | Prevent accidental unequipping. Lock specific equipment slots so items cannot be removed without unlocking first |
+| Cosmetic Transmog | Full appearance override system. Wear one item for stats, display a different unlocked item's appearance. Goes beyond the Fashion toggle |
+| Equipment Screenshot | Generate shareable image of current gear setup with stats for sharing with friends or posting |
+| Empty Slot Warning | Visual indicator/alert when an equipment slot is empty that shouldn't be (e.g., no cape, no ring) |
+| Equipment Rule Enforcement | Active enforcement module that prevents equipping items violating mode/area/level restrictions with clear feedback messages |
+| Spellbook Presets | Save and quickly swap between spellbook/ability bar configurations. Named presets with hotkey switching |
+| Gear Switch Trainer | Practice mode for gear switching. Timed challenges to practice swapping equipment loadouts with accuracy grading |
+
+---
+
 ## Views
 
 Predefined filtered views of the Equipment spreadsheet for common workflows.

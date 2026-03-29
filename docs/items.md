@@ -450,3 +450,19 @@ Predefined filters for browsing the item database.
 | By Stackable | Stackable items vs. non-stackable items |
 | By Weight | Sorted by weight, heaviest to lightest |
 | By Value | Sorted by high alchemy value or shop price |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Configurable Loot Filters | Show, hide, or highlight ground items by value tier, item type, rarity, or custom rules. Tiered display (hide junk, dim common, highlight rare, glow legendary). |
+| Item Locking | Lock specific items to prevent dropping, trading, alching, or selling. Player sets locks per item. Locked items show a lock icon. |
+| Activity-Based Item Checklists | Set reminders to bring specific items for specific activities. "Going to Barrows? Don't forget spade, prayer pots, teleport." Configurable per activity. |
+| Item Source Lookup | Reverse drop table. Search any item to see every monster, boss, minigame, shop, or activity that provides it, with drop rates and estimated acquisition time. |
+| Item Data Export | Copy item stats, requirements, and properties to clipboard or file for sharing. Shareable item cards with image generation. |
+| Drop Rarity Sound Effects | Different audio cues when items drop based on value tier. Configurable sounds per tier (common = subtle, rare = distinct, legendary = dramatic). |
+| Ground Item Organization | Filter, sort, and organize ground items by value, type, or custom priority. Group stackable items visually. Hide/show toggles per category. |
+| Consumable Cooldown Visualization | Visual timer showing cooldown between food/potion uses. Shows when you can eat/drink again. Displays combo eat windows. |
+| Custom Per-Item Drop Sounds | Assign custom sound effects to specific item drops. Player configures which items get special audio alerts. |

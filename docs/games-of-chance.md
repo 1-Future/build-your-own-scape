@@ -220,3 +220,11 @@ Each individual game (Flower Poker, Blackjack, Crash, Lottery, etc.) has its own
 | Host ratings | Player reviews and trust scores for player-hosted tables. |
 | Jackpot tracker | Live view of all progressive jackpots and their current values. |
 | Economy impact | Admin view. Total GP wagered, total GP removed (tax), net economy effect. |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Drop Simulator | Dry-run loot simulator. Input a monster and number of kills, see simulated loot without actually killing anything. Helps players understand drop rates and expected value before committing time. |

@@ -254,3 +254,13 @@ When a player completes an achievement, the system fires an event that can trigg
 - A server-wide broadcast for server firsts
 
 The achievement panel in the UI shows all categories, completion percentage per category, total points, and a filterable list of all achievements (completed, in progress, locked, hidden).
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Personal Goal Tracker | Custom player-defined goals with progress bars. Set targets like "85 Slayer" or "1000 Vorkath KC" or "100M GP" and track progress with notifications at milestones. |
+| Speedrun Auto-Splitter | Automatic split timer that triggers at key milestones (quest complete, level reached, boss killed). Integrates with external speedrun timer software. Tracks personal bests. |
+| Configurable Milestone Thresholds | DM and players can define custom milestone levels beyond standard (e.g., alert at level 50, 75, 92, 95, 99, not just 99). Per-skill configuration. |

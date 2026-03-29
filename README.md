@@ -73,6 +73,19 @@ Three layers:
 | 27 | [Server Stats & Voting](docs/server-stats-voting.md) | Hiscores, polls, governance, server ranking |
 | 28 | [Dialogue](docs/dialogue.md) | NPC conversation, branching, AI freeform |
 
+### Infrastructure Systems
+| # | Plugin | Document |
+|---|--------|----------|
+| 29 | [External Integrations](docs/external-integrations.md) | Webhooks, API, data export, Discord, streaming, IoT |
+| 30 | [Music & Audio](docs/music-audio.md) | Playlists, jukebox, per-zone soundtracks, sound effects |
+| 31 | [Pet & Companion](docs/pet-companion.md) | Pet raising, naming, transmog, abilities, collection |
+| 32 | [Player Housing](docs/player-housing.md) | Rooms, furniture, storage, portals, visitors, trophies |
+
+### Audit
+| Document | Description |
+|----------|-------------|
+| [Plugin Audit](docs/plugin-audit.md) | 1605 RuneLite plugins analyzed — gaps, new features, coverage |
+
 ## Contributing
 
 This is a living document. If you have ideas for mechanics, systems, or improvements, open an issue or submit a PR. The goal is to be the most comprehensive MMO design reference that exists.

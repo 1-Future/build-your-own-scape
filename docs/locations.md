@@ -225,3 +225,18 @@ Predefined filtered views of the Location List spreadsheet for common workflows.
 | By Facility | Search for a facility type to find all locations that have it |
 | Safe Zones | Filtered to locations where combat is disabled |
 | Dungeon Master Rules | Filtered to locations with custom rules applied |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| User-Placed Waypoints | Players can place custom waypoint markers on the world map with labels. Visible to self and optionally shared with party/clan. Persistent across sessions. |
+| Distance Measurement Tool | Measure tile distance between two points. Shows walking path distance and straight-line distance. Useful for range calculations and planning. |
+| Day/Night Cycle | Time-of-day system affecting lighting, NPC spawns, shop availability, monster aggression, and skilling rates. DM configures cycle length and effects per zone. |
+| GPS Navigation | Pathfinding overlay showing optimal route to destination. Accounts for teleports, shortcuts, and agility obstacles. Turn-by-turn tile guidance. |
+| Tile Marker Profiles | Save and load sets of tile markers as named profiles. Switch between profiles for different activities (bossing markers, skilling markers, PvP markers). |
+| Tile Markers with Labels | Add custom text labels to tile markers. Shows text above the marked tile. Useful for boss safe spots, positioning notes, and team coordination. |
+| Teleport Usage Analytics | Log all teleports used with timestamps, frequency, and destinations. Shows most-used teleport methods and suggests optimization. |
+| Dynamic Weather System | Weather events beyond environmental damage. Rain, snow, fog, sandstorm, thunderstorm. Each affects visibility, movement speed, combat accuracy, and skilling success rates. DM configures per zone. |

@@ -272,3 +272,17 @@ The mode system itself is modular. Each subsystem can be enabled or disabled at 
 | Active Modes       | Currently running modes (especially relevant for seasonal)             |
 | Leaderboards       | Per-mode hiscores with trophy tier indicators                          |
 | Mode Comparison    | Side-by-side comparison of two or more modes' rule configurations      |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| New Game Plus / Prestige | Reset account or individual skills after maxing for prestige ranks. Each prestige tier grants cosmetic rewards, titles, or small bonuses. Tracks total prestiges. |
+| Randomizer Mode | Shuffle unlocks across skills, quests, and areas. Completing one skill's milestone might unlock a quest or area from a completely different category. Archipelago-style cross-system linking. |
+| Clogman Mode | Can only use items you have received as collection log drops. Every item must be earned through its intended source before it can be equipped or consumed. |
+| Chunk-Locked Progression | Map divided into chunks. Start in one chunk, must complete all tasks in current chunk before unlocking an adjacent one. Visual overlay showing locked/unlocked chunks. |
+| Taskman Mode | Random task generator assigns your next objective. Cannot do other activities until task is complete. Tasks span all content types (kill X, gather Y, complete quest Z). |
+| Faction/Tribal Mode | Players choose or are assigned factions. Territory control PvP between factions. Faction-specific rewards, shops, and areas. Faction reputation system. |
+| Relic System as Permanent Feature | Leagues-style relic/passive buff selection available in permanent modes, not just seasonal. Choose permanent passive buffs at milestone thresholds. Locked once chosen or swappable with cost. |

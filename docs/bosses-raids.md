@@ -683,3 +683,16 @@ Predefined filtered views of the Boss List spreadsheet for common workflows.
 | By Drop | Filtered to bosses that drop a specific item |
 | By Phase Count | Sorted by number of phases descending |
 | By Skill Required | Filtered to bosses that require specific skill levels to access or fight |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Healer Role Tracking | Track healing done and received per player during group content. Shows who healed how much, healing efficiency, and overhealing waste. |
+| KPH Efficiency Tracking | Kills-per-hour tracker with session history, personal bests, and comparison to server averages. Helps optimize boss farming. |
+| Raid Randomizer / Mutator Mode | Randomized raid configurations with random boss order, random modifiers, and roguelike elements. Each run is unique. |
+| Ready Check System | "Ready?" prompt before starting group content. All party members must confirm ready. Shows who is ready and who is not. Timeout auto-cancels. |
+| Party Connection Status | Monitor party members' connection status. Shows if someone is AFK, disconnected, or has high latency. Heartbeat/ping system. |
+| Mistake Tracker | Per-player mistake tracking during raids and boss fights. Counts prayer flick failures, missed dodges, wrong attack styles, and other mechanical errors. Post-fight summary. |

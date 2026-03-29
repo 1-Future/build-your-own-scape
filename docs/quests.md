@@ -297,3 +297,12 @@ The quest journal and management interfaces support the following filter views.
 | By Area Unlock | Filtered to quests that unlock access to a specific area |
 | By Step Count | Sorted by total number of steps (shortest to longest or reverse) |
 | By Age/Era | Grouped by dungeon master defined timeline tag |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Optimal Quest Order Planner | Automated quest ordering system that computes the most efficient order to complete quests based on prerequisites, XP rewards, and unlocks. Visual prerequisite graph showing quest dependencies. |
+| TTS Dialogue Fallback | Text-to-speech voice synthesis for quest dialogue when recorded voice acting is unavailable. Configurable voice per NPC. Can be disabled. |

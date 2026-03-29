@@ -624,3 +624,17 @@ Win/loss record, ELO rating, war history with details, rival clan standings.
 ### Settings View
 
 All configurable options from Sections 1-2, module toggles, rank permissions editor, auto-rank rule builder.
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Per-Member Combat Analytics | Track KDR, damage dealt, damage taken, healing done, and deaths per clan member during clan wars and group PvM. Leaderboard and historical comparison. |
+| Clan Data Export | Export clan member list, stats, contributions, and activity data to CSV/JSON. Useful for external tracking tools and spreadsheets. |
+| Clan-Wide Shared Goals | Set goals for the entire clan with shared progress bars. "Kill 10,000 dragons as a clan" or "Earn 1B total XP this month." Every member's contribution counts. |
+| Group Attendance Tracking | Sign-up, check-in, and participation tracking for events. Shows who RSVP'd, who showed up, and participation rate per member over time. |
+| Shared Item Visibility | View what items group/clan members have across their banks and inventories. Useful for coordinating gear and supplies for group content. |
+| Shared Map Markers | Party/clan members can place markers on the world map visible to each other. Useful for coordination during events, bossing, and exploration. |
+| Loot Broadcast Celebrations | Clan-wide broadcast when a member receives a rare drop with celebration effects (fireworks, sound, special chat message). Configurable rarity threshold. |

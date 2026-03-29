@@ -109,3 +109,14 @@ The collection log UI supports the following view modes.
 | Other      | Event items, achievement rewards, miscellaneous sources          |
 
 Within each view, entries display: item icon, item name, obtained count (or count/cap if capped), and a visual indicator for obtained vs. missing (filled vs. grayed out).
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Dry Streak Tracking | Track kills since last unique drop with statistical percentile context. Shows "you are drier than 95% of players at this KC." Updates per kill. |
+| Drop Rate Luck Calculator | Statistical analysis of your drop luck across all sources. Shows expected vs actual drops, overall luck score, luckiest and unluckiest categories. |
+| NPC Bestiary Completion | Track encounters with every NPC/monster type as a bestiary collection category. Percentage completion with rewards at milestones. |
+| Examine Encyclopedia | Log of all item/NPC/object examine texts the player has discovered. Searchable encyclopedia that fills as you explore. Completion tracking. |

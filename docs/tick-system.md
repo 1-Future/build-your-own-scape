@@ -215,3 +215,14 @@ Master switches that enable or disable entire subsystems.
 | Freeze immunity window      | Global    | Enable post-freeze immunity period.                            |
 | Custom tick rate            | Global    | Allow non-default tick rates.                                  |
 | Auto-manipulation mode      | Global    | System performs tick manipulation on behalf of the player.      |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Line-of-Sight Visualization | Visual overlay showing line-of-sight between player and target. Shows what tiles are visible, what is blocked by obstacles. Useful for PvP and boss positioning. |
+| Combat Roll Transparency | Display the actual accuracy/hit roll behind each attack. Shows the random number generated, the threshold needed to hit, and whether it passed. Demystifies combat math. |
+| Tick Practice Mode | Training grounds where players can practice tick-perfect actions with visual feedback, accuracy grading, and ghost playback of perfect runs. |
+| Tick Replay Logger | Record and replay tick-perfect action sequences. Save replays for analysis. Share replays with others for learning. |
