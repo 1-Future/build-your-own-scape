@@ -35,7 +35,11 @@ Three layers:
 | 4 | [Monsters](docs/monsters.md) | Monster stats, types, drop tables, slayer |
 | 5 | [Bosses & Raids](docs/bosses-raids.md) | Phases, mechanics, behavior library, raid system |
 | 6 | [Items](docs/items.md) | Food, potions, materials, currencies, containers |
-| 7 | [Locations](docs/locations.md) | Areas, zones, combat rules, environment |
+| 7 | [NPCs](docs/npcs.md) | Non-combat entities, services, schedules, factions |
+| 8 | [Shops](docs/shops.md) | Stock mechanics, pricing, shop types, traveling merchants |
+| 9 | [Terrain](docs/terrain.md) | Tiles, elevation, biomes, chunk system, world generation |
+| 10 | [Buildings](docs/buildings.md) | Walls, doors, windows, rooms, decoration, lighting, blueprints |
+| 11 | [Locations](docs/locations.md) | Areas, zones, combat rules, environment |
 | 8 | [Tick System](docs/tick-system.md) | Game engine timing, manipulation, action queue |
 
 ### Content Systems
