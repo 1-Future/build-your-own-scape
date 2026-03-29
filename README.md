@@ -90,6 +90,7 @@ Three layers:
 | 31 | [Pet & Companion](docs/pet-companion.md) | Pet raising, naming, transmog, abilities, collection |
 | 32 | [Player Housing](docs/player-housing.md) | Rooms, furniture, storage, portals, visitors, trophies |
 | 33 | [Engine Architecture](docs/engine-architecture.md) | Networking, chunks, plugins, rendering, pathfinding, multiplayer sync |
+| 34 | [Asset System](docs/asset-system.md) | Models, textures, animations, objects, spot anims, particles, audio pipeline |
 
 ### Reference
 | Document | Description |
