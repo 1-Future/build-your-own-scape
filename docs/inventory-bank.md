@@ -65,3 +65,6 @@
 | Unified Item Locator | Find where any item is across all storage: bank, inventory, equipment, group shared storage, death storage, house storage, looting bag. One search, all locations |
 | Bank Data Export | Export bank contents to JSON/CSV for external tools, spreadsheets, or third-party applications. Scheduled or manual |
 | Bank Audit / Junk Detector | Identify items taking up bank space with low/no value. Suggest items to sell, alch, or destroy. Configurable value threshold |
+| Bank Item Tagging | User-defined tags on bank items for cross-tab organization and search-by-tag. Multiple tags per item. Tag-based custom layouts |
+| Inventory Color Tags | Color-coded highlighting of inventory slots by item purpose (food=green, gear=blue, potions=red). Configurable per item |
+| Container Content Overlay | Show contents of pouches, bags, and container items without opening them (rune pouch contents, seed box, etc.) |

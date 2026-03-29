@@ -696,3 +696,5 @@ Predefined filtered views of the Boss List spreadsheet for common workflows.
 | Ready Check System | "Ready?" prompt before starting group content. All party members must confirm ready. Shows who is ready and who is not. Timeout auto-cancels. |
 | Party Connection Status | Monitor party members' connection status. Shows if someone is AFK, disconnected, or has high latency. Heartbeat/ping system. |
 | Mistake Tracker | Per-player mistake tracking during raids and boss fights. Counts prayer flick failures, missed dodges, wrong attack styles, and other mechanical errors. Post-fight summary. |
+| Boss Respawn Timer | Countdown timer showing when a killed boss will respawn. Per-boss configurable. Visible on minimap or overlay |
+| Special Attack Counter | Team-wide tracker for total special attack damage dealt to a single boss target across all party members |

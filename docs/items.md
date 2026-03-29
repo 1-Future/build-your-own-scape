@@ -466,3 +466,8 @@ Predefined filters for browsing the item database.
 | Ground Item Organization | Filter, sort, and organize ground items by value, type, or custom priority. Group stackable items visually. Hide/show toggles per category. |
 | Consumable Cooldown Visualization | Visual timer showing cooldown between food/potion uses. Shows when you can eat/drink again. Displays combo eat windows. |
 | Custom Per-Item Drop Sounds | Assign custom sound effects to specific item drops. Player configures which items get special audio alerts. |
+| Examine Text System | Inspect any item/NPC/object to see a description. Examined texts logged in a personal encyclopedia. Searchable |
+| Item Charge Tracking | Overlay showing remaining charges on degradable items (e.g. trident 500/2500, barrows 75/100) with low-charge warnings |
+| Item Identification Overlay | Visual markers distinguishing similar-looking items (grimy herbs by type, potion doses, rune types, seed types) |
+| Item Stat Tooltips | Hover tooltip showing combat bonuses, healing amount, buff effects, and other item properties without equipping |
+| Persistent Loot Tracker | Long-term loot log per source (monster, boss, chest) with value totals, rates, and session vs all-time views |

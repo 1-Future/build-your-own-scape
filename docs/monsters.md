@@ -252,3 +252,6 @@ Predefined filtered views of the Monster List spreadsheet for common workflows.
 | NPC Bestiary Completion Tracker | Track which NPCs/monsters you have encountered and killed as a bestiary collection. Completion percentage with rewards at milestones. |
 | Player-Defined NPC Nicknames | Allow players to set custom nicknames/aliases for monsters and NPCs that display in-game instead of the default name. |
 | Reverse Drop Table Lookup | Search by item to see all monsters/sources that drop it, with drop rates and estimated kills per drop. The inverse of viewing a monster's drop table. |
+| NPC Highlighting | Configurable color-coded outlines/overlays on NPCs by name, type, combat level, or custom tag. Multiple highlight styles |
+| NPC Aggression Timer | Display showing when the player has been in an area long enough that NPCs stop auto-attacking. Countdown to re-aggro |
+| Opponent Info Panel | HUD panel showing current combat target's name, HP percentage, combat level, and per-hit damage history |

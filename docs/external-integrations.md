@@ -425,3 +425,12 @@ Predefined filtered views for managing integrations.
 | Chat Bridge Status | Per-bridge connection status, message count, and last relay time |
 | Streaming Overlay Preview | Live preview of configured streaming overlays |
 | Sync Status | Last sync time, conflict count, and data freshness per sync type |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---------|-------------|
+| Crowdsourced Game Data | Anonymous opt-in system sending gameplay data (drop rates, NPC stats, prices) to improve community databases and wiki accuracy |
+| Wiki Integration | In-client button/panel that opens the relevant wiki page for any inspected item, NPC, or object. Context-sensitive lookup |

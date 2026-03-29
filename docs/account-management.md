@@ -319,3 +319,8 @@ The account management system is organized into the following UI panels.
 | Keybind Profiles | Save multiple keybind configurations as named profiles. Quick-switch between profiles for different activities (PvM, PvP, skilling) |
 | Action History Audit Log | Persistent log of all significant actions taken (trades, drops, deaths, teleports, equipment changes). Searchable and exportable |
 | Custom Notification Sounds | Assign custom sound effects to specific notification types. Different sounds for different events. Uploadable audio files |
+| Idle Notification System | Alert (sound, visual, system notification) when player has been idle for configurable duration. Prevents AFK logout |
+| Logout Countdown Timer | Visible timer showing seconds remaining until auto-logout from inactivity |
+| Menu Entry Reordering | Customize right-click menu order, changing default left-click actions on NPCs, objects, and items. Per-entity configuration |
+| Screen Region Markers | User-drawn colored shapes (rectangles, circles) on the screen for personal spatial reference and UI annotation |
+| World/Server Switcher | Quick-hop interface showing all worlds with population count, ping, activity type, and one-click switching |

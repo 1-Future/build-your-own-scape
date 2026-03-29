@@ -240,3 +240,5 @@ Predefined filtered views of the Location List spreadsheet for common workflows.
 | Tile Markers with Labels | Add custom text labels to tile markers. Shows text above the marked tile. Useful for boss safe spots, positioning notes, and team coordination. |
 | Teleport Usage Analytics | Log all teleports used with timestamps, frequency, and destinations. Shows most-used teleport methods and suggests optimization. |
 | Dynamic Weather System | Weather events beyond environmental damage. Rain, snow, fog, sandstorm, thunderstorm. Each affects visibility, movement speed, combat accuracy, and skilling success rates. DM configures per zone. |
+| Instance Minimap | Minimap overlay for instanced/procedural areas showing room layout and player position. Auto-maps as you explore |
+| Object Highlighting | Mark and color-highlight specific world objects (doors, shortcuts, interactables) persistently across sessions |

@@ -299,3 +299,8 @@ All sections are independently toggleable. Players can show or hide each module 
 | Click/Input Analytics | Track mouse clicks, keyboard presses, and APM over time. Heatmap of most-clicked screen areas. Session stats |
 | Pedometer | Count tiles walked/run. Total distance traveled per session and lifetime. Includes running vs walking breakdown |
 | Player Data Export | Export all character data (stats, bank, KC, achievements, collection log) to JSON/CSV for external analysis or sharing |
+| DPS Meter | Real-time damage-per-second counter during combat with session totals and per-target breakdown |
+| Regen Progress Meter | Visual bar showing tick-by-tick progress toward next natural HP and special attack regeneration |
+| Poison/Status Tracker | Poison and venom damage tracker showing per-tick damage values and time until status expires |
+| Timer/Buff/Debuff Bar | Unified system showing all active timed effects (buffs, debuffs, immunity timers) with countdowns |
+| XP Progress Globes | Per-skill circular progress indicators showing visual arc toward next level with hover detail stats |

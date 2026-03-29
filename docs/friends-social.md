@@ -54,3 +54,5 @@
 | Spectate / Screen Share | Watch a friend play in real-time through their viewport. Spectator mode with optional commentary via voice chat. Useful for coaching and entertainment. |
 | Timezone Display | Show friends' local timezones for coordinating play sessions. Auto-detected or manually set. Shows current time per friend. |
 | Shareable Ban List | Export and import ban/ignore lists between clan admins. Community-maintained block lists for known scammers/bots. |
+| Friend Notes | Private text notes attached to individual entries on the friends list. Only visible to the note author. Persists across sessions |
+| Player Highlighting | Color-coded name/model overlays distinguishing friends, clanmates, team members, and other players at a glance |

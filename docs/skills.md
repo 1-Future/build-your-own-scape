@@ -309,3 +309,5 @@ Dungeon masters configure the following per world:
 | Resting Mechanic             | Sit/rest animation that regenerates run energy faster than standing. Configurable regen rate bonus. Optional toggle                                  |
 | Banked Experience Calculator | Calculate total XP stored in bank from processable items (herbs = herblore XP, ores = smithing XP, etc.)                                            |
 | XP Graphing / Analytics      | Graph XP gain over time with session/daily/weekly views. Identify peak training periods and efficiency trends                                        |
+| Skill Calculator             | Calculator showing actions/resources needed to reach a target level with method comparison. Accounts for boosts and bonuses                          |
+| Time-Gated Activity Tracker  | Countdown timers for offline/passive activities (farming patches, birdhouses, construction projects) with completion notifications                    |

@@ -373,3 +373,4 @@ The communication system exposes the following UI panels and screens.
 | Streaming Integration | Twitch/YouTube integration. Live stats overlay, chat integration, subscriber alerts, scene switching based on game state. |
 | Chat Transcript Export | Export chat history to file (text, JSON, HTML). Configurable date range. Per-channel export. Searchable archive. |
 | Chat Clipboard | Copy individual chat messages or selections to clipboard. Right-click to copy. |
+| Chat Slash Commands | In-chat commands (e.g. !kc, !lvl, !price) that query and display player stats inline. Configurable command prefix. Extensible command list |
