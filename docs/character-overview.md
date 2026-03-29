@@ -304,3 +304,4 @@ All sections are independently toggleable. Players can show or hide each module 
 | Poison/Status Tracker | Poison and venom damage tracker showing per-tick damage values and time until status expires |
 | Timer/Buff/Debuff Bar | Unified system showing all active timed effects (buffs, debuffs, immunity timers) with countdowns |
 | XP Progress Globes | Per-skill circular progress indicators showing visual arc toward next level with hover detail stats |
+| Character Creation Pipeline | Full character creation system with body types (A/B), 7 body part slots (head, jaw, torso, arms, hands, legs, feet), 5 color slots (hair, torso, legs, feet, skin). 3D preview with rotatable model. Appearance persisted server-side by player name. Changeable post-creation |

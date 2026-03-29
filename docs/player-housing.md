@@ -472,3 +472,11 @@ Predefined views for the player housing interface.
 | House Rating Leaderboard | Server-wide ranking of houses by average visitor rating |
 | Contract Board | Available construction contracts with tier, target, and rewards |
 | Build Mode HUD | Overlay showing available hotspots, materials in inventory, and level requirements |
+
+---
+
+## Additional Features (Plugin Audit)
+
+| Feature | Description |
+|---|---|
+| Diagonal Wall Half-Paint | Tiles split diagonally by NE or NW walls render as two triangles with different textures/colors. Enables complex visual patterns, natural terrain transitions, and decorative floor designs within a single tile |

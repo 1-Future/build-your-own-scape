@@ -85,8 +85,9 @@ Three layers:
 | 30 | [Music & Audio](docs/music-audio.md) | Playlists, jukebox, per-zone soundtracks, sound effects |
 | 31 | [Pet & Companion](docs/pet-companion.md) | Pet raising, naming, transmog, abilities, collection |
 | 32 | [Player Housing](docs/player-housing.md) | Rooms, furniture, storage, portals, visitors, trophies |
+| 33 | [Engine Architecture](docs/engine-architecture.md) | Networking, chunks, plugins, rendering, pathfinding, multiplayer sync |
 
-### Audit
+### Reference
 | Document | Description |
 |----------|-------------|
 | [Plugin Audit](docs/plugin-audit.md) | 1605 RuneLite plugins analyzed — gaps, new features, coverage |

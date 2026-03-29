@@ -611,6 +611,7 @@ Features identified from the RuneLite plugin audit that extend the equipment sys
 | Equipment Rule Enforcement | Active enforcement module that prevents equipping items violating mode/area/level restrictions with clear feedback messages |
 | Spellbook Presets | Save and quickly swap between spellbook/ability bar configurations. Named presets with hotkey switching |
 | Gear Switch Trainer | Practice mode for gear switching. Timed challenges to practice swapping equipment loadouts with accuracy grading |
+| Gear Tier Restriction Mode | Self-imposed challenge mode restricting equipment to tiers (T1/T2/T3). Player sets their gear tier cap. Cannot equip items above their chosen tier. Creates build diversity and challenge runs within the same world |
 
 ---
 

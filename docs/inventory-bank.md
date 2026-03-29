@@ -68,3 +68,4 @@
 | Bank Item Tagging | User-defined tags on bank items for cross-tab organization and search-by-tag. Multiple tags per item. Tag-based custom layouts |
 | Inventory Color Tags | Color-coded highlighting of inventory slots by item purpose (food=green, gear=blue, potions=red). Configurable per item |
 | Container Content Overlay | Show contents of pouches, bags, and container items without opening them (rune pouch contents, seed box, etc.) |
+| Bucket Fill with Undo | Area-fill painting with full undo support. Server returns undo data with previous tile/color/variant state per tile. Enables non-destructive world editing. Global recolor option recolors ALL tiles of a type across ALL loaded chunks |

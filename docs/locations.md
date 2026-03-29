@@ -242,3 +242,8 @@ Predefined filtered views of the Location List spreadsheet for common workflows.
 | Dynamic Weather System | Weather events beyond environmental damage. Rain, snow, fog, sandstorm, thunderstorm. Each affects visibility, movement speed, combat accuracy, and skilling success rates. DM configures per zone. |
 | Instance Minimap | Minimap overlay for instanced/procedural areas showing room layout and player position. Auto-maps as you explore |
 | Object Highlighting | Mark and color-highlight specific world objects (doors, shortcuts, interactables) persistently across sessions |
+| Lot/Property System | Named rectangular regions (lots) with tile lists, center coordinates, and colors. Sims-style property/land parcel system. Create, update, delete lots. Assign owners. Lots define buildable areas for player housing |
+| Room Detection Algorithm | Flood-fill algorithm that detects enclosed rooms from wall/door edges. When walls fully enclose an area, it's recognized as a room. Auto-ceiling in 3D mode. Enables automatic room naming and typing |
+| Roof System | 4 roof types (gabled, hipped, half-gabled, flat) with configurable pitch, eave length, and rotation. Renders in 3D mode over detected rooms. Auto-generates from room boundaries |
+| Chunk Streaming Protocol | Binary chunk format (64x64 Uint8Array .bin files) with JSON color sidecar. Chunks streamed as base64 over WebSocket. Lazy loading from disk, cached in memory, evicted after 60s idle. View distance of 3 chunks |
+| Edge-Based Wall System | Walls exist on tile edges (N/S/E/W + diagonal NE/NW) as a 6-bit bitmask per tile, not as full-tile blockers. Enables doors, half-walls, diagonal walls. Only wall edges block movement — tile types are purely visual |

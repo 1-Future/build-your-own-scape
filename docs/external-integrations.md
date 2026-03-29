@@ -434,3 +434,6 @@ Predefined filtered views for managing integrations.
 |---------|-------------|
 | Crowdsourced Game Data | Anonymous opt-in system sending gameplay data (drop rates, NPC stats, prices) to improve community databases and wiki accuracy |
 | Wiki Integration | In-client button/panel that opens the relevant wiki page for any inspected item, NPC, or object. Context-sensitive lookup |
+| Game Console API | Programmatic game control via window.game object. Full API: move, teleport, setName, paintTile, fillArea, placeWall, setHeight, placeRoof, tileAt, screenshot, batch. The batch() method accepts arrays of string commands — designed for AI/MCP scripting and automation |
+| Discord Bridge Implementation | Bidirectional chat bridge via Discord webhook + bot polling. Game chat forwarded to Discord channel. Discord messages appear in game chat. NPC dialogue responses routed through Discord bot. PM forwarding. Configurable channel mapping |
+| Seeded Deterministic RNG | Server-side deterministic random number generator (seed * 16807 % 2147483647). Enables reproducible world generation, consistent loot rolls, and provably fair outcomes when seed is shared |

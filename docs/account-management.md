@@ -324,3 +324,6 @@ The account management system is organized into the following UI panels.
 | Menu Entry Reordering | Customize right-click menu order, changing default left-click actions on NPCs, objects, and items. Per-entity configuration |
 | Screen Region Markers | User-drawn colored shapes (rectangles, circles) on the screen for personal spatial reference and UI annotation |
 | World/Server Switcher | Quick-hop interface showing all worlds with population count, ping, activity type, and one-click switching |
+| UI Theming Engine | Full panel customization framework. Corner styles (round, square, chamfer), edge profiles (flat, bevel, inset, ridge, groove), border weight/style, shadow depth (none, subtle, lifted, floating), glow effects (none, accent, neon, soft), glass/transparency mode, decorative stickers, gradient/texture backgrounds, color per panel, opacity, label rename |
+| Panel Clone and Pop-Out | Any UI panel can be cloned as a standalone floating window. Individual tabs can be popped out of their parent panel. Full drag, resize, and reposition support. Taskbar shows all panels as minimize/restore buttons |
+| Settings Registry | RuneLite-inspired settings system with 200+ configurable options organized by tab (activities, audio, chat, controls, display, gameplay). Toggle-based with search. Extensible by plugins |

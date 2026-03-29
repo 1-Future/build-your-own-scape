@@ -226,3 +226,5 @@ Master switches that enable or disable entire subsystems.
 | Combat Roll Transparency | Display the actual accuracy/hit roll behind each attack. Shows the random number generated, the threshold needed to hit, and whether it passed. Demystifies combat math. |
 | Tick Practice Mode | Training grounds where players can practice tick-perfect actions with visual feedback, accuracy grading, and ghost playback of perfect runs. |
 | Tick Replay Logger | Record and replay tick-perfect action sequences. Save replays for analysis. Share replays with others for learning. |
+| Priority-Based Tick Queue | 4-priority action scheduling system. Priority 0 = movement, 1 = player actions, 2 = NPC actions, 3 = world events. Key-based deduplication — scheduling with same key replaces previous entry. cancel via cancelScheduled(key). Proven pattern from working implementation |
+| Action Progress Bar | RS3-style progress bar for skilling and combat actions. Shows completion percentage of current action. Fills over the action's tick duration. Visual feedback for multi-tick actions |

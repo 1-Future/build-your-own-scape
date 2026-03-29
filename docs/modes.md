@@ -286,3 +286,4 @@ The mode system itself is modular. Each subsystem can be enabled or disabled at 
 | Taskman Mode | Random task generator assigns your next objective. Cannot do other activities until task is complete. Tasks span all content types (kill X, gather Y, complete quest Z). |
 | Faction/Tribal Mode | Players choose or are assigned factions. Territory control PvP between factions. Faction-specific rewards, shops, and areas. Faction reputation system. |
 | Relic System as Permanent Feature | Leagues-style relic/passive buff selection available in permanent modes, not just seasonal. Choose permanent passive buffs at milestone thresholds. Locked once chosen or swappable with cost. |
+| Gear Tier Restriction | Per-player gear tier cap (T1/T2/T3) as a self-imposed challenge mode. Restricts equippable items without changing the world. Can be combined with other modes (ironman + T1 gear = ultimate challenge) |
