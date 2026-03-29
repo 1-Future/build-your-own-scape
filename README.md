@@ -26,6 +26,11 @@ Three layers:
 |---|--------|----------|
 | 1 | [Equipment](docs/equipment.md) | Worn gear, weapons, armor, sets, auras, upgrades |
 | 2 | [Skills](docs/skills.md) | 34+ skills across 6 categories, inspired/futuristic skills |
+| 2a | [Skills: Combat](docs/skills-combat.md) | Attack, Strength, Defence, HP, Ranged, Magic, Prayer, Slayer, Summoning, Necromancy |
+| 2b | [Skills: Gathering](docs/skills-gathering.md) | Mining, Fishing, Woodcutting, Farming, Hunter, Divination, Archaeology |
+| 2c | [Skills: Processing](docs/skills-processing.md) | Cooking, Firemaking, Smithing (smelting), Runecrafting, Thieving |
+| 2d | [Skills: Combining](docs/skills-combining.md) | Herblore, Crafting, Fletching, Smithing (anvil), Construction, Invention |
+| 2e | [Skills: Activity](docs/skills-activity.md) | Agility, Dungeoneering, Sailing, Socializing, Bank Standing, Pet Raising |
 | 3 | [Quests](docs/quests.md) | Quest design, step system, branching, rewards |
 | 4 | [Monsters](docs/monsters.md) | Monster stats, types, drop tables, slayer |
 | 5 | [Bosses & Raids](docs/bosses-raids.md) | Phases, mechanics, behavior library, raid system |
