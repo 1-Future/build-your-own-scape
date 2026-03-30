@@ -61,7 +61,8 @@ Three layers:
 ### Player Systems
 | # | Plugin | Document |
 |---|--------|----------|
-| 15 | [Account Management](docs/account-management.md) | Profile, security, settings, save states |
+| 15 | [Character Creation](docs/character-creation.md) | Sims 4-inspired creator for players AND NPCs, traits, AI personality |
+| 16 | [Account Management](docs/account-management.md) | Profile, security, settings, save states |
 | 16 | [Character Overview](docs/character-overview.md) | Stats, progress, milestones, comparison |
 | 17 | [Inventory & Bank](docs/inventory-bank.md) | Storage, presets, organization |
 | 18 | [Death System](docs/death-system.md) | Death mechanics, graves, reclaim |
