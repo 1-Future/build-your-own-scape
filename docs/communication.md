@@ -338,6 +338,215 @@ Every subsystem can be independently enabled or disabled by the Dungeon Master a
 
 ---
 
+## Advanced Communication Mechanics
+
+Proven communication systems studied from the most successful multiplayer games. Each is a standalone toggleable mechanic.
+
+---
+
+### Context-Aware Ping System
+A single button ping that reads what you're pointing at and generates the appropriate callout automatically. Ping an enemy = "Enemy spotted here." Ping loot = "Level 3 armor here." Ping a location = "Suggesting we move here." Ping a teammate's ping = "Acknowledged." Double-ping = "Danger." Character voices auto-narrate the ping with personality. Players can communicate an entire match without typing or speaking.
+
+| Property | Type | Description |
+|----------|------|-------------|
+| Ping types | Enum list | Generic, Enemy, Loot, Location, Danger, Defend, Attack, Assist, On My Way, Retreat, Acknowledged, Cancelled |
+| Auto-context | Boolean | Ping reads what cursor is hovering and selects appropriate type |
+| Voice callout | Boolean | Character speaks the ping aloud (e.g. "Enemy over there!") |
+| Visual marker | Sprite | Icon placed in world at ping location |
+| Marker duration | Ticks | How long ping marker stays visible |
+| Cooldown | Ticks | Time between pings (prevents spam) |
+| Ping wheel | Boolean | Hold ping button for radial menu of specific ping types |
+| Teammate response | Boolean | Others can ping your ping to acknowledge |
+| Minimap indicator | Boolean | Ping shows on minimap with directional arrow |
+| Sound | Sound ID | Audio cue when ping is placed (different per type) |
+| Visibility | Enum | Party only, Clan, Nearby players, Everyone |
+
+---
+
+### Proximity Voice Chat (Spatial Audio)
+Voice volume scales with in-game distance between players. Close = loud and clear. Far = quiet and faded. Creates natural social spaces --- walk up to someone and start talking. Walk away and they fade out. Directional audio (left/right speaker based on player position).
+
+| Property | Type | Description |
+|----------|------|-------------|
+| Max range | Tiles | Maximum distance voice carries |
+| Falloff curve | Enum | Linear, logarithmic, realistic (inverse square) |
+| Directional | Boolean | Stereo positioning based on speaker location |
+| Obstruction | Boolean | Walls muffle/block voice (LoS-based) |
+| Zone override | Boolean | Some zones disable proximity (libraries, stealth areas) |
+| Zone amplify | Boolean | Some zones amplify range (amphitheaters, town squares) |
+| Enemy audible | Boolean | Can enemies hear you (PvP tension) |
+| Disguise voice | Boolean | Voice modulation in certain zones (anonymity) |
+
+---
+
+### Limited Communication (Constraint as Design)
+Intentionally restricting communication to create tension, meaning, or creativity.
+
+| Method | Description |
+|--------|-------------|
+| Single button expression | One "chirp" or "call" button --- all communication through timing, position, and repetition. Creates profound bonds through limitation |
+| Walkie-talkie system | Voice only works through a held item. Limited range, static/distortion at edges, can be intercepted by enemies. Communication is a resource |
+| Discussion phases | Communication only allowed during specific game phases (between rounds, at rest points). Forces deliberate conversation |
+| Signal-only zones | Areas where text/voice is disabled --- players must communicate through movement, emotes, and pings |
+| Language barrier | Different factions literally can't read each other's text chat --- must communicate through emotes and actions |
+| Dead silence zones | No communication at all in certain areas --- creates isolation and dread |
+
+---
+
+### Asynchronous World Messages
+Players leave messages IN the world for future players to discover.
+
+| Property | Type | Description |
+|----------|------|-------------|
+| Message type | Enum | Template (pick from pre-written phrases), Freeform (write anything --- if moderated), Drawing (simple sketch) |
+| Template system | String builder | "Try [action] near [object]" or "[Warning] ahead" --- combinable fragments that prevent abuse while allowing creativity |
+| Placement | Position | Message appears at the tile where it was left |
+| Persistence | Duration | How long message lasts (hours, days, permanent until removed) |
+| Rating system | Up/Down | Other players rate messages (good messages persist longer, bad messages fade) |
+| Ghost echo | Boolean | Briefly see the ghost/shadow of the player who left the message |
+| Spoiler control | Boolean | Messages near quest content can be flagged/hidden |
+| DM moderation | Boolean | DM can review and remove messages |
+| Humor category | Boolean | Tag messages as helpful vs funny (filter by preference) |
+| Max messages per player | Integer | Prevent spam --- limited active messages at once |
+
+---
+
+### Communication Hierarchy
+Structured voice channels with chain of command --- not everyone talks to everyone.
+
+| Channel | Who Talks | Who Listens | Use Case |
+|---------|-----------|-------------|----------|
+| Local | Anyone nearby | Anyone nearby | General socializing, proximity-based |
+| Party/Squad | Party members | Party members | Coordinated group content |
+| Leader | Party/squad leader | All leaders + own squad | Cross-party coordination in raids |
+| Raid | Raid leader | Everyone in raid | Instructions, callouts during boss fights |
+| Clan officers | Officers | Officers | Strategic planning |
+| Clan | Any member | All members | General clan communication |
+| Broadcast | DM/Admin | Everyone on server | Announcements, events |
+
+Players can be in multiple channels simultaneously with per-channel volume control. Push-to-talk can be bound per channel (e.g., T for party, Y for raid leader).
+
+---
+
+### Emotes as Language
+Emotes that communicate specific meanings understood universally without text or voice.
+
+| Emote Convention | Meaning |
+|-----------------|---------|
+| Sit/rest near someone | "I'm friendly, I want to hang out" |
+| Dance near someone | "Celebrate with me" or "Let's party" |
+| Point at ground | "Come here" or "Stand here" |
+| Point at object | "Look at this" or "Use this" |
+| Wave | "Hello" or "Goodbye" |
+| Bow | "Thank you" or "Respect" |
+| Shake head/No | "Don't do that" or "I disagree" |
+| Nod/Yes | "Go ahead" or "I agree" |
+| Cry | "I'm sad" or "That's unfortunate" |
+| Flex | "I'm strong" or "Look at my gear" |
+| Synchronized dance | Group bond, celebration, community identity |
+
+### Emote Combos
+Emote sequences that create emergent communication:
+- Wave -> Point -> Follow = "Come with me"
+- Sit -> Point at ground = "Rest here, it's safe"
+- Angry -> Point at player = "You did something wrong"
+- Dance -> Dance -> Dance = "Party! Everyone join!"
+- Bow -> Bow (returned) = Mutual respect, ready to duel
+
+---
+
+### Honor/Reputation System for Communication
+Reward positive communication behavior rather than only punishing negative.
+
+| Feature | Description |
+|---------|-------------|
+| Honor vote | After group content, vote for who communicated best (most helpful, most positive, best callouts) |
+| Honor levels | Accumulate honor over time. Higher honor = cosmetic rewards (chat border, name color, badge) |
+| Honor decay | Honor slowly decreases over time --- must actively be positive, not just avoid being negative |
+| Toxicity penalty | Reports AND low honor both reduce standing. Consistently toxic = restricted communication |
+| Mentor bonus | Helping new players (answering questions, guiding) earns bonus honor |
+| Shotcaller badge | Players recognized for good ping/callout usage in group content |
+| Community pillar | Title for players who maintain high honor for extended periods |
+
+---
+
+### Quick Chat Wheel (Radial Menu)
+Hold a key to open a radial wheel with 8-12 preset phrases. Categorized, customizable, instant.
+
+| Property | Type | Description |
+|----------|------|-------------|
+| Wheel slots | 8-12 | Number of phrases on the wheel |
+| Categories | Enum | Combat, Social, Trade, Navigation, Emote, Custom |
+| Customizable | Boolean | Player can swap out default phrases for their own |
+| Voice line | Boolean | Character speaks the phrase aloud with personality |
+| Icon | Sprite | Visual icon per phrase for non-readers |
+| Localized | Boolean | Phrase auto-translates for recipient's language |
+| Cooldown | Ticks | Prevent spam |
+| Memorable lines | Toggle | Some phrases become community culture/memes --- encourage personality in default lines |
+
+---
+
+### Structured Communication Moments
+Deliberate game phases where communication is the GAMEPLAY --- not background utility.
+
+| Moment | Description |
+|--------|-------------|
+| Pre-boss briefing | Forced pause before boss fight. Party must discuss strategy. Timer before fight starts |
+| Post-round discussion | After a PvP round or minigame wave, brief discussion period before next round |
+| Trial/court | Players present evidence and argue (for rules/moderation, or in-game quest mechanic) |
+| Negotiation | Two parties must reach agreement (clan territory disputes, trade deals, quest branching) |
+| Voting | Players vote on outcome, forced to communicate preferences before vote |
+| Confession/reveal | Quest moment where NPC or player reveals information --- triggers dialogue phase |
+| Campfire | Rest mechanic where players gathered around campfire get bonus if they chat/emote (socializing XP boost) |
+
+---
+
+### Non-Verbal Communication Tools
+For players who can't or don't want to use text or voice.
+
+| Tool | Description |
+|------|-------------|
+| Ping system | Context-aware pings (covered above) |
+| Emote wheel | Quick emote access (covered above) |
+| Reaction bubbles | Quick reaction icons above head (thumbs up, heart, laugh, sad, angry, question mark) --- click and it shows briefly |
+| Drawing tool | Simple drawing on ground or map --- arrow, circle, X mark, checkmark. Visible to party |
+| Waypoint sharing | Place waypoint, party sees it on their map and minimap |
+| Ready check | Thumbs up/down before group content |
+| Inventory show | Flash your equipped gear to others (show what you're wearing without trading) |
+| Item linking | Link an item in chat by clicking it --- others see the item's stats |
+| Status indicator | Set a status above your head --- "LFG", "Trading", "AFK", "Mentoring", "Do Not Disturb" |
+| Music performance | Play instruments as communication --- play a tune, others recognize it |
+
+---
+
+### Module Toggles (append to existing toggles)
+
+| Toggle | Default | Description |
+|--------|---------|-------------|
+| Context-aware pings | On | Smart ping system that reads cursor target |
+| Ping wheel | On | Radial menu for specific ping types |
+| Ping voice callouts | On | Characters speak pings aloud |
+| Proximity voice (spatial) | Off | Distance-based voice with falloff |
+| Voice obstruction | Off | Walls muffle proximity voice |
+| Enemy voice audible | Off | Opponents can hear your proximity voice |
+| Limited communication zones | Off | Areas with restricted communication |
+| Asynchronous world messages | Off | Leave messages in the world for others |
+| Message templates | On | Template-based world message system (prevents abuse) |
+| Message rating | On | Players upvote/downvote world messages |
+| Communication hierarchy | On | Structured voice channels with roles |
+| Honor system | Off | Reputation rewards for positive communication |
+| Quick chat wheel | On | Radial menu for preset phrases |
+| Custom wheel phrases | On | Players edit their wheel phrases |
+| Structured communication moments | Off | Forced discussion phases in gameplay |
+| Reaction bubbles | On | Quick reaction icons above head |
+| Drawing tool | Off | Simple drawing visible to party |
+| Status indicators | On | LFG, Trading, AFK above head |
+| Item linking | On | Share item stats in chat by clicking |
+| Emote combos | On | Emote sequences create emergent meaning |
+| Campfire social boost | Off | XP bonus for socializing at rest points |
+
+---
+
 ## Views
 
 The communication system exposes the following UI panels and screens.
