@@ -471,3 +471,31 @@ Predefined filters for browsing the item database.
 | Item Identification Overlay | Visual markers distinguishing similar-looking items (grimy herbs by type, potion doses, rune types, seed types) |
 | Item Stat Tooltips | Hover tooltip showing combat bonuses, healing amount, buff effects, and other item properties without equipping |
 | Persistent Loot Tracker | Long-term loot log per source (monster, boss, chest) with value totals, rates, and session vs all-time views |
+| Books and Journals | Readable items with text content — quest diaries, spell books, lore books, manuals, recipe scrolls. "Read" action opens text display |
+| Keys | Door keys, chest keys, crystal keys, boss keys. Properties: one-use vs reusable, which lock it opens, obtainable from where |
+| Tickets and Vouchers | Agility tickets, minigame tokens, reward vouchers, raffle tickets, priority passes. Stackable currency-like items for specific systems |
+| Certificates and Diplomas | Skill certificates, quest completion scrolls, achievement proofs, diplomas. Proof of accomplishment items |
+| Maps and Charts | Treasure maps, clue maps, navigation charts, dungeon maps. Items that reveal location information or guide exploration |
+| Notes and Letters | Scribbled notes, NPC letters, quest clues, coded messages. Text-bearing items that advance quests or provide lore |
+| Dyes and Paints | Color dyes (red, blue, yellow, etc.), special dyes (shadow, third-age, blood). Applied to other items to change their color |
+| Molds and Templates | Amulet mold, ring mold, holy mold, bolt tip mold, ammo mold. Reusable tools consumed during specific crafting recipes |
+| Costumes and Disguises | Full outfit sets, masks, fake beards, camo gear, holiday costumes. Cosmetic sets with optional set bonus or access effects |
+| Toys and Novelties | Rubber chicken, yo-yo, marionettes, spinning plates, crackers, kites. Fun items with unique animations or emotes |
+| Holiday Items | Christmas crackers, party hats, santa hats, halloween masks, easter items. Seasonal items from holiday events, may be discontinued |
+| Instruments | Flute, bell, lyre, cow bell, enchanted lyre. Items that play music or sounds when used |
+| Blueprints and Schematics | Construction plans, invention blueprints, ship designs. Recipe items consumed to learn new craftable items |
+| Fossils and Specimens | Small/medium/large/rare fossils, specimen remains, archaeological artifacts. Collectible items for museums or display |
+| Fabric and Cloth | Silk, wool, strips of cloth, mysterious cloth. Crafting materials for tailoring and crafting skills |
+| Pottery and Ceramic | Unfired bowls, pots, pie dishes, plant pots. Two-step crafting items (shape then fire in kiln) |
+| Glass Items | Molten glass, vials, orbs, lantern lens, glass blowing products. Crafted from sand and soda ash |
+| Heraldic Items | Crest items, shield customization tokens, banner customization items. Items that change the emblem/design on equipment |
+| Readable Property | Items with a "Read" action that opens text content. Applies to books, scrolls, notes, letters, maps, signs |
+| Combinable Property | Items that combine with another item to create something new (key halves, godsword shards, broken pieces). Recipe uses two items as input |
+| Chargeable Property | Items charged with another item or currency (trident + fire runes, sanguinesti staff + blood runes). Tracks charge count |
+| Degraded States | Items with multiple condition states (new, 100%, 75%, 50%, 25%, 0%). Visual change per state. Repair cost scales with degradation |
+| Variant Set | Same base item in multiple colors/styles (party hat colors, graceful recolors, slayer helm recolors). Linked variants share base stats |
+| Seasonal Property | Items only obtainable during specific calendar events. Flagged in item data. May return annually or be discontinued |
+| Discontinued Property | Items no longer obtainable by any method. Fixed supply. Price driven entirely by demand. Historical significance |
+| Cosmetic Override Property | Items that change visual appearance when worn over real gear. Stats come from underlying equipment, appearance from override |
+| Flatpackable Property | Furniture items convertible to flat-pack form for trading/storage. Placed in POH from flat-pack form |
+| POH Storable Property | Items storable in player-owned house (costume room, toy box, display case, cape rack). Frees bank space |

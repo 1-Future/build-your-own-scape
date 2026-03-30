@@ -26,6 +26,16 @@ Each toggle enables or disables a subsystem within the structures catalog. DM co
 | Structural Elements | Which bridges, fences, and gates are available |
 | Custom Materials | DM can define new materials beyond the defaults |
 | Material Availability Per Zone | Restrict which materials can be placed in specific zones (stone in mountains, wood in forests) |
+| Market and Commerce | Which stall types and commerce furniture are available |
+| Containers and Storage | Which world container objects are available |
+| Signs and Information | Which sign types are available |
+| Mechanical and Interactive | Which mechanism types are available |
+| Cooking and Food Objects | Which kitchen objects are available |
+| Musical Instruments | Which instruments and entertainment objects are available |
+| Religious and Ceremonial | Which worship objects are available |
+| Maritime and Nautical | Which ship and dock objects are available |
+| Military and Fortification | Which defensive structures are available |
+| Academic and Scholarly | Which scholarly objects are available |
 
 ---
 
@@ -667,3 +677,320 @@ Editor views for browsing and placing structures from the catalog.
 | Style Guide | Reference for which materials pair well together |
 | Category Browser | Browse by category (walls, doors, windows, arches, etc.) |
 | Preview Renderer | See object in 3D before placing in the world |
+
+---
+
+## 14. Market and Commerce
+
+### Stall Types
+
+| Type | Description |
+|------|-------------|
+| General Stall | Basic goods, food, supplies |
+| Baker's Stall | Bread, cakes, pastries |
+| Silk Stall | Cloth, silk, fabric |
+| Fur Stall | Pelts, hides, leather |
+| Silver Stall | Silver jewelry, trinkets |
+| Gem Stall | Cut and uncut gems |
+| Spice Stall | Spices, seasonings |
+| Fish Stall | Raw and cooked fish |
+| Fruit Stall | Fruits, vegetables |
+| Weapon Stall | Swords, daggers, axes |
+| Armour Stall | Helms, shields, platebodies |
+| Magic Stall | Runes, staves, magical supplies |
+| Herb Stall | Herbs, potion ingredients |
+| Scimitar Stall | Scimitars specifically |
+| Tea Stall | Tea, cups, beverages |
+| Ore Stall | Raw ores and bars |
+| Empty Stall | Unused market stall (decorative) |
+| Custom Stall | DM-defined goods |
+
+### Commerce Furniture
+
+Shop counter (service desk), Display case (glass-fronted item display), Signboard (shop name/prices), Price board (listed prices), Cash register (modern/futuristic), Trade post (outdoor trading), Auction block (for auctions), Market tent/awning, Cart/wagon (mobile shop)
+
+---
+
+## 15. Containers and Storage (World Objects)
+
+### Container Types
+
+| Type | Description |
+|------|-------------|
+| Barrel | Cylindrical wooden storage (ale, water, fish, misc) |
+| Crate | Square wooden storage (supplies, trade goods) |
+| Sack | Fabric bag (flour, potatoes, coal) |
+| Chest | Lockable storage (treasure, quest items, personal) |
+| Strongbox | Reinforced locked chest (valuables) |
+| Safe | Metal secured storage (modern) |
+| Casket | Small ornate box (jewelry, scrolls) |
+| Urn | Ceramic storage (ashes, offerings) |
+| Vase | Decorative container (flowers, potions) |
+| Basket | Woven open container (fruit, fish) |
+| Bin | Waste/compost container |
+| Coffin | Human-sized box (crypt/graveyard) |
+| Sarcophagus | Stone coffin (tomb) |
+| Crypt | Below-ground burial chamber |
+| Cupboard | Wall-mounted or standing enclosed storage |
+| Wardrobe | Clothing storage (bedroom) |
+| Trunk | Travel storage chest |
+| Locker | Personal secure storage |
+| Rack | Open shelving (weapon rack, plate rack, bottle rack) |
+| Shelf | Wall-mounted horizontal storage |
+| Hook | Wall-mounted hanging point (coat hook, meat hook) |
+
+---
+
+## 16. Signs and Information
+
+### Sign Types
+
+| Type | Description |
+|------|-------------|
+| Signpost | Directional sign at crossroads |
+| Shop Sign | Hanging sign above shop entrance |
+| Notice Board | Community announcements, quests, bounties |
+| Milestone | Distance marker along roads |
+| Gravestone | Name, dates, epitaph (cemetery) |
+| Memorial Plaque | Commemorative wall plaque |
+| Warning Sign | Danger, keep out, beware |
+| Map Board | Area map display (town center) |
+| Wanted Poster | Bounty target display |
+| Menu Board | Food/drink listings (tavern) |
+| Rules Board | Area rules display |
+| Welcome Sign | Town/zone entrance |
+| Banner with Text | Hanging text banner |
+| Scroll Display | Mounted scroll (lore, quest) |
+| Price List | Shop/stall pricing display |
+| Nameplate | NPC/room/building identifier |
+| Street Sign | Road/street name |
+
+---
+
+## 17. Mechanical and Interactive
+
+### Mechanism Types
+
+| Type | Description |
+|------|-------------|
+| Lever | Pull to activate (gate, bridge, trap) |
+| Button/Switch | Push to toggle |
+| Pressure Plate | Step on to trigger |
+| Tripwire | Walk through to trigger (trap) |
+| Cog/Gear | Rotating mechanical component |
+| Pulley | Rope and wheel lifting mechanism |
+| Conveyor | Moving belt (dwarven, industrial) |
+| Winch | Cranking lift mechanism |
+| Valve | Turn to control flow (water, steam) |
+| Lock | Keyhole requiring key item |
+| Combination Lock | Multi-dial lock requiring code |
+| Trap | Spring trap, spike trap, dart trap, pit trap |
+| Cannon | Placed ranged weapon (dwarf multicannon) |
+| Catapult | Siege projectile launcher |
+| Ballista | Large crossbow siege weapon |
+| Trebuchet | Counterweight siege launcher |
+| Drawbridge Chain | Controls drawbridge raising/lowering |
+| Portcullis Winch | Controls portcullis raising/lowering |
+| Bell | Pull rope to ring (alarm, announcement) |
+| Clock | Mechanical timekeeping (wall or tower) |
+| Telescope | View distant locations |
+| Microscope | View tiny details |
+| Scale/Balance | Weighing mechanism |
+| Windmill Blade | Rotating wind-powered mechanism |
+| Waterwheel | Rotating water-powered mechanism |
+
+---
+
+## 18. Cooking and Food
+
+### Kitchen Objects
+
+| Type | Description |
+|------|-------------|
+| Range/Stove | Cooking surface with fire (primary cooking station) |
+| Campfire/Spit | Open fire with rotisserie (outdoor cooking) |
+| Oven | Enclosed baking chamber |
+| Cauldron | Large pot for soups, stews, potions |
+| Cooking Pot | Smaller pot on fire |
+| Sink/Basin | Water source for cleaning |
+| Larder | Food storage cabinet |
+| Table (Kitchen) | Food preparation surface |
+| Churner | Butter/cream churning device |
+| Brewery Vat | Ale/beer fermentation vessel |
+| Fermentation Barrel | Wine/spirits aging barrel |
+| Apple Press | Cider/juice extraction |
+| Grain Mill | Grinding grain to flour |
+| Bread Oven | Specialized bread baking |
+| Smoke Rack | Smoking meat/fish |
+| Drying Rack | Drying herbs, meat |
+| Ice Box | Cold storage (pre-modern) |
+| Pantry Shelf | Organized food storage |
+| Spice Rack | Wall-mounted spice storage |
+| Wine Rack | Bottle storage |
+
+---
+
+## 19. Musical Instruments and Entertainment
+
+### Instrument Types
+
+| Type | Description |
+|------|-------------|
+| Piano/Organ | Keyboard instrument (tavern, church) |
+| Harp | Stringed floor instrument |
+| Lute/Guitar | Portable stringed instrument (on stand or wall) |
+| Drum | Percussion (war drum, bongo, kettle drum) |
+| Flute/Recorder | Wind instrument |
+| Trumpet/Horn | Brass instrument |
+| Bell Set | Tuned bells (carillon, chime) |
+| Music Box | Mechanical self-playing device |
+| Phonograph | Record player (modern/steampunk) |
+| Jukebox | Coin-operated music player |
+| Stage | Performance platform |
+| Microphone | Voice amplifier (modern) |
+| Dance Floor | Designated dancing area |
+
+### Entertainment Objects
+
+| Type | Description |
+|------|-------------|
+| Dartboard | Wall-mounted target game |
+| Chess/Draughts Board | Table-top strategy game |
+| Card Table | Table for card games |
+| Dice Table | Table for dice games |
+| Billiards Table | Pool/snooker table |
+| Slot Machine | Gambling device |
+| Roulette Wheel | Spinning wheel game |
+| Target Dummy | Archery/combat practice |
+| Punching Bag | Melee practice |
+| Wrestling Ring | Combat entertainment area |
+| Arena Seating | Spectator benches around arena |
+| Trophy Case | Achievement display cabinet |
+
+---
+
+## 20. Religious and Ceremonial
+
+### Religious Objects
+
+| Type | Description |
+|------|-------------|
+| Altar | Worship surface (prayer, offerings) — varies by god/faction |
+| Shrine | Small worship station (outdoor/portable) |
+| Totem | Carved pole (tribal, spiritual) |
+| Obelisk | Tall pointed monument |
+| Sacred Fire | Ritual flame (eternal fire) |
+| Holy Water Font | Blessed water basin |
+| Prayer Mat | Ground-level prayer position |
+| Incense Burner | Fragrant smoke emitter |
+| Offering Table | Place offerings for deity |
+| Reliquary | Sacred item container |
+| Stained Glass (freestanding) | Religious scene panel |
+| Candelabra (ceremonial) | Multi-candle ritual holder |
+| Baptismal Font | Water blessing basin |
+| Confessional | Enclosed prayer booth |
+| Pulpit | Speaking platform (sermons) |
+| Pew | Church bench seating |
+| Organ | Church musical instrument |
+| Bell Tower | High bell housing |
+| Prayer Wheel | Spinning prayer device (Eastern) |
+| Spirit Ward | Protective magical marker |
+| Summoning Circle | Ritual floor pattern |
+| Sacrificial Altar | Dark/evil worship surface |
+
+---
+
+## 21. Maritime and Nautical
+
+### Ship Components
+
+| Type | Description |
+|------|-------------|
+| Mast | Vertical sail support pole |
+| Sail | Fabric wind catcher |
+| Helm/Wheel | Ship steering mechanism |
+| Anchor | Ship holding device |
+| Cannon (ship) | Naval weapon |
+| Rigging | Rope network for sails |
+| Crow's Nest | Elevated lookout platform |
+| Gangplank | Boarding ramp |
+| Hull Section | Ship body segment |
+| Figurehead | Decorative bow carving |
+| Porthole | Ship window |
+| Capstan | Anchor-raising winch |
+| Navigation Table | Map/chart surface |
+
+### Port/Dock Objects
+
+| Type | Description |
+|------|-------------|
+| Dock/Pier | Extended platform over water |
+| Mooring Post | Rope tie-off point |
+| Buoy | Floating marker |
+| Lighthouse | Coastal light tower |
+| Fishing Net (hung) | Drying net on poles |
+| Lobster Pot | Crustacean trap |
+| Ship in Bottle | Decorative display |
+| Rope Coil | Stored rope pile |
+| Barrel Stack | Dock-side barrel pile |
+| Cargo Crane | Loading/unloading device |
+| Dry Dock | Ship repair area |
+
+---
+
+## 22. Military and Fortification
+
+### Fortification Objects
+
+| Type | Description |
+|------|-------------|
+| Battlement/Parapet | Defensive wall top (merlon and crenel) |
+| Arrow Loop | Narrow wall opening for archers |
+| Murder Hole | Ceiling opening for dropping things on invaders |
+| Moat | Water-filled defensive ditch |
+| Drawbridge | Raiseable bridge over moat |
+| Barbican | Fortified gateway structure |
+| Tower | Elevated defensive structure |
+| Watchtower | Lookout post |
+| Guard Post | Sentry station |
+| Weapon Rack (military) | Organized weapon storage |
+| Armour Stand (military) | Organized armour storage |
+| War Table | Strategic planning surface with map |
+| Flag/Standard | Military faction identifier |
+| Barricade | Temporary defensive barrier |
+| Sandbags | Improvised cover |
+| Spike Trap | Ground-level defensive spikes |
+| Oil Cauldron | Heated oil for defense (wall-top) |
+| Siege Tower | Mobile attack tower |
+| Battering Ram | Gate-breaking device |
+| Palisade | Sharpened log fence |
+| Stockade | Prisoner restraint device |
+
+---
+
+## 23. Academic and Scholarly
+
+### Academic Objects
+
+| Type | Description |
+|------|-------------|
+| Bookshelf | Book storage (library) |
+| Lectern | Reading/speaking stand |
+| Writing Desk | Surface with quill and parchment |
+| Globe | World/planetary sphere |
+| Telescope | Astronomical viewing device |
+| Microscope | Scientific viewing device |
+| Chalkboard | Writing/teaching surface |
+| Map Table | Large map display surface |
+| Scroll Rack | Organized scroll storage |
+| Potion Shelf | Organized potion display |
+| Specimen Jar | Preserved creature/plant |
+| Skeleton (mounted) | Anatomical display |
+| Chemistry Set | Glass vessels and burners |
+| Hourglass | Sand timer |
+| Abacus | Counting frame |
+| Astronomical Chart | Star map display |
+| Archive Cabinet | Filing/document storage |
+| Museum Display | Glass-enclosed exhibit |
+| Fossil Display | Mounted prehistoric remains |
+| Artifact Pedestal | Raised item showcase |
