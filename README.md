@@ -40,7 +40,12 @@ Three layers:
 | 9 | [Terrain](docs/terrain.md) | Tiles, elevation, biomes, chunk system, world generation |
 | 10 | [Buildings](docs/buildings.md) | Walls, doors, windows, rooms, decoration, lighting, blueprints |
 | 11 | [Locations](docs/locations.md) | Areas, zones, combat rules, environment |
-| 8 | [Tick System](docs/tick-system.md) | Game engine timing, manipulation, action queue |
+| 12 | [Tick System](docs/tick-system.md) | Game engine timing, manipulation, action queue |
+| 13 | [Combat System](docs/combat-system.md) | Fight loop, accuracy/damage formulas, PvP mechanics |
+| 14 | [Transportation](docs/transportation.md) | Teleports, fairy rings, boats, mounts, shortcuts |
+| 15 | [Crafting System](docs/crafting-system.md) | Unified recipe engine, tools, stations, batch crafting |
+| 16 | [Player Progression](docs/player-progression.md) | XP curves, milestones, endgame, prestige |
+| 17 | [Structures Catalog](docs/structures-catalog.md) | Walls, doors, windows, arches, columns, roofs, floors, seating, lighting |
 
 ### Content Systems
 | # | Plugin | Document |
@@ -51,6 +56,7 @@ Three layers:
 | 12 | [Puzzles](docs/puzzles.md) | Escape rooms, logic, player-created |
 | 13 | [Dailies](docs/dailies.md) | Repeatable events, timers, streaks |
 | 14 | [Games of Chance](docs/games-of-chance.md) | Gambling, casino, provably fair |
+| 15 | [World Events](docs/world-events.md) | World bosses, community goals, holidays, dynamic events |
 
 ### Player Systems
 | # | Plugin | Document |
@@ -91,6 +97,12 @@ Three layers:
 | 32 | [Player Housing](docs/player-housing.md) | Rooms, furniture, storage, portals, visitors, trophies |
 | 33 | [Engine Architecture](docs/engine-architecture.md) | Networking, chunks, plugins, rendering, pathfinding, multiplayer sync |
 | 34 | [Asset System](docs/asset-system.md) | Models, textures, animations, objects, spot anims, particles, audio pipeline |
+| 35 | [World Builder Tools](docs/world-builder-tools.md) | Editor suite, terrain/building/object/NPC tools, templates, collaboration |
+| 36 | [DM Dashboard](docs/dm-dashboard.md) | Admin panel, player management, economy monitoring, content editors |
+| 37 | [Security](docs/security.md) | Anti-cheat, packet validation, account security, data protection |
+| 38 | [Accessibility](docs/accessibility.md) | Colorblind, motor, audio, cognitive, communication accessibility |
+| 39 | [Localization](docs/localization.md) | Multi-language, RTL support, translation workflow, cultural adaptation |
+| 40 | [Tutorial & Onboarding](docs/tutorial-onboarding.md) | New player experience, tutorial island, mentor system |
 
 ### Reference
 | Document | Description |
