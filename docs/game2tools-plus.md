@@ -328,6 +328,53 @@ All four are needed. None is sufficient alone.
 
 ---
 
+## Required Output Documents
+
+Every phase produces a mandatory document. No doc = phase didn't happen. The docs are the receipts proving the work was done.
+
+| Phase | Output Doc | Contents | Done When |
+|-------|-----------|----------|-----------|
+| 1. Philosophy | `philosophy.md` | Principles, boundaries, quality bars, data source priority, vision statement | All principles named, categorized, and validated against past decisions |
+| 2. Discovery | `domain-map.md` | Category list, source index, estimated scope per category | Every major system identified, every source listed |
+| 3. Extraction | `{category}.md` (one per category) | Property tables, formulas, variant catalogs, toggles, relationships | Extraction checklist complete for every category. Gap analysis run |
+| 4. Design | `{system}-design.md` (one per system) | Structured doc with toggles, properties, linked spreadsheets, views | Quality checklist passed. Human approved. Committed to repo |
+| 5. Tooling | `{system}-tool-spec.md` (one per system) | Base tool type, context enhancements, volume operations, validation rules | Game2Tools formula applied. GUI + API specified. Dual interface confirmed |
+| 6. Build | `changelog.md` | What was built, what changed, what's pending | Feature implemented, tests passing, playable |
+| 7. Validate | `validation-report.md` | Cross-reference check, coverage check, toggleability check, AI parsability, principles compliance | All checks passed. Philosophy re-validated |
+| 8. Iterate | `iteration-log.md` + updated source docs | What feedback came in, what changed, what new principles emerged | Docs updated. New gaps identified and queued |
+
+### Document Chain
+Each phase's output becomes the next phase's input:
+
+```
+philosophy.md
+    → informs domain-map.md (principles determine what to extract)
+        → informs {category}.md (sources determine where to look)
+            → informs {system}-design.md (extracted data fills the design)
+                → informs {system}-tool-spec.md (design determines the tool)
+                    → informs changelog.md (tool spec determines what to build)
+                        → informs validation-report.md (built system checked against design)
+                            → informs iteration-log.md (validation gaps drive next cycle)
+                                → updates philosophy.md (lessons learned refine principles)
+```
+
+If any doc in the chain is missing, everything downstream is unreliable. The chain is the project's integrity guarantee.
+
+### Proof of Work
+At the end of a Game2Tools+ cycle, the repo contains:
+- 1 philosophy doc (the rules)
+- 1 domain map (the scope)
+- N category docs (the data)
+- N design docs (the systems)
+- N tool spec docs (the editors)
+- 1 changelog (what was built)
+- 1 validation report (proof it's complete)
+- 1 iteration log (what's next)
+
+Anyone can audit the project by reading the docs in order. If a doc is missing, that phase was skipped — and skipping phases is how projects lose their minds.
+
+---
+
 ## Module Toggles
 
 Game2Tools+ is a methodology, not a runtime system. No module toggles.
